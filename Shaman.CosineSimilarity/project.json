@@ -5,7 +5,7 @@
   ],
   "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
   "dependencies": {
-    "Shaman.ValueString": "1.0.2.3"
+    "Shaman.ValueString": "1.0.2.21"
   },
   "projectUrl": "http://shaman.io/",
   "compilationOptions": {
@@ -13,13 +13,10 @@
     "allowUnsafe": true
   },
   "frameworks": {
-    "net45+win+wpa81": {
-      "frameworkAssemblies": {
-        "System.Runtime": "4.0.0.0",
-        "System.Runtime.Extensions": "4.0.0.0",
-        "System.Collections": "4.0.0.0",
-        "System.Text.RegularExpressions": "4.0.0.0",
-        "System.Globalization": "4.0.0.0"
+    "net46": {},
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Globalization": "4.0.11"
       }
     }
   }
